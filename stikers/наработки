@@ -1,0 +1,105 @@
+
+@bot.callback_query_hendler(func=lambda call: True)
+def callback_inline(call):
+	try:
+		if call.message:
+			if call.data == 'Buick':
+				sti = open('stikers/1.webp', 'rb')
+				bot.send_sticker(message.chat.id, sti)
+				bot.send_message(call.message.chat.id, "Вы вибрали: \n")
+			elif call.data == 'Acura':
+				sti = open('stikers/2.webp', 'rb')
+				bot.send_sticker(message.chat.id, sti)
+				bot.send_message(call.message.chat.id, "Вы вибрали: \n")
+			elif call.data == 'Acura':
+				sti = open('stikers/3.webp', 'rb')
+				bot.send_sticker(message.chat.id, sti)
+				bot.send_message(call.message.chat.id, "Вы вибрали: \n")
+			elif call.data == 'Acura':
+				sti = open('stikers/4.webp', 'rb')
+				bot.send_sticker(message.chat.id, sti)
+				bot.send_message(call.message.chat.id, "Вы вибрали: \n")
+			elif call.data == 'Acura':
+				sti = open('stikers/6.webp', 'rb')
+				bot.send_sticker(message.chat.id, sti)
+				bot.send_message(call.message.chat.id, "Вы вибрали: \n")
+			elif call.data == 'Acura':
+				sti = open('stikers/7.webp', 'rb')
+				bot.send_sticker(message.chat.id, sti)
+				bot.send_message(call.message.chat.id, "Вы вибрали: \n")
+			elif call.data == 'Acura':
+				sti = open('stikers/8.webp', 'rb')
+				bot.send_sticker(message.chat.id, sti)
+				bot.send_message(call.message.chat.id, "Вы вибрали: \n")
+			elif call.data == 'Acura':
+				sti = open('stikers/9.webp', 'rb')
+				bot.send_sticker(message.chat.id, sti)
+				bot.send_message(call.message.chat.id, "Вы вибрали: \n")
+			elif call.data == 'Acura':
+				sti = open('stikers/10.webp', 'rb')
+				bot.send_sticker(message.chat.id, sti)
+				bot.send_message(call.message.chat.id, "Вы вибрали: \n")
+			elif call.data == 'Acura':
+				sti = open('stikers/11.webp', 'rb')
+				bot.send_sticker(message.chat.id, sti)
+				bot.send_message(call.message.chat.id, "Вы вибрали: \n")
+			elif call.data == 'Acura':
+				sti = open('stikers/12.webp', 'rb')
+				bot.send_sticker(message.chat.id, sti)
+				bot.send_message(call.message.chat.id, "Вы вибрали: \n")
+			elif call.data == 'Acura':
+				sti = open('stikers/13.webp', 'rb')
+				bot.send_sticker(message.chat.id, sti)
+				bot.send_message(call.message.chat.id, "Вы вибрали: \n")
+			elif call.data == 'Acura':
+				sti = open('stikers/14.webp', 'rb')
+				bot.send_sticker(message.chat.id, sti)
+				bot.send_message(call.message.chat.id, "Вы вибрали: \n")
+			elif call.data == 'Acura':
+				sti = open('stikers/15.webp', 'rb')
+				bot.send_sticker(message.chat.id, sti)
+				bot.send_message(call.message.chat.id, "Вы вибрали: \n")
+			elif call.data == 'Acura':
+				sti = open('stikers/17.webp', 'rb')
+				bot.send_sticker(message.chat.id, sti)
+				bot.send_message(call.message.chat.id, "Вы вибрали: \n")
+			elif call.data == 'Acura':
+				sti = open('stikers/18.webp', 'rb')
+				bot.send_sticker(message.chat.id, sti)
+				bot.send_message(call.message.chat.id, "Вы вибрали: \n")
+			elif call.data == 'Acura':
+				sti = open('stikers/19.webp', 'rb')
+				bot.send_sticker(message.chat.id, sti)
+				bot.send_message(call.message.chat.id, "Вы вибрали: \n")
+			elif call.data == 'Acura':
+				sti = open('stikers/20.webp', 'rb')
+				bot.send_sticker(message.chat.id, sti)
+				bot.send_message(call.message.chat.id, "Вы вибрали: \n")
+			elif call.data == 'Acura':
+				sti = open('stikers/21.webp', 'rb')
+				bot.send_sticker(message.chat.id, sti)
+				bot.send_message(call.message.chat.id, "Вы вибрали: \n")
+			elif call.data == 'Acura':
+				sti = open('stikers/22.webp', 'rb')
+				bot.send_sticker(message.chat.id, sti)
+				bot.send_message(call.message.chat.id, "Вы вибрали: \n")
+			elif call.data == 'Acura':
+				sti = open('stikers/23.webp', 'rb')
+				bot.send_sticker(message.chat.id, sti)
+				bot.send_message(call.message.chat.id, "Вы вибрали: \n")
+			elif call.data == 'Acura':
+				sti = open('stikers/24.webp', 'rb')
+				bot.send_sticker(message.chat.id, sti)
+				bot.send_message(call.message.chat.id, "Вы вибрали: \n")
+			elif call.data == 'Acura':
+				sti = open('stikers/25.webp', 'rb')
+				bot.send_sticker(message.chat.id, sti)
+				bot.send_message(call.message.chat.id, "Вы вибрали: \n")
+			elif call.data == 'Acura':
+				sti = open('stikers/28.webp', 'rb')
+				bot.send_sticker(message.chat.id, sti)
+				bot.send_message(call.message.chat.id, "Вы вибрали: \n")
+			elif call.data == 'Acura':
+				sti = open('stikers/29.webp', 'rb')
+				bot.send_sticker(message.chat.id, sti)
+				bot.send_message(call.message.chat.id, "Вы вибрали: \n")
